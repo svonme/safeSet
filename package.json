@@ -1,0 +1,20 @@
+{
+  "name": "@fengqiaogang/safe-set",
+  "version": "0.1.1",
+  "description": "safeGet",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svonme/safeSet.git"
+  },
+  "keywords": ["safe-set"],
+  "author": "svon.me@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svonme/safeSet/issues"
+  },
+  "homepage": "https://github.com/svonme/safeSet#readme"
+}
