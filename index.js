@@ -72,7 +72,13 @@ function safeSet(instance, path, value) {
         }
         return app(data[key], index + 1);
       } else {
-        data[key] = value || null;
+        // 数组元素赋值
+        if(isArray(key)) {
+          const k = getArrayIndex(key);
+          data[k] = value || null;
+        } else {
+          data[key] = value || null;
+        }
         return;
       }
     };
