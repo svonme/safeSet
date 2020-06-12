@@ -9,7 +9,8 @@
 const safeSet = require("@fengqiaogang/safe-set");
 
 const data = {};
-const value = safeGet(data, "a.b.c[1].d", "hello world");
+const value = safeSet(data, "a.b.c[1].d", "hello world");
+
 //输出结果
 value = {
   "a": {
