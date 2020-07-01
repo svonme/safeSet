@@ -1,6 +1,7 @@
 {
   "name": "@fengqiaogang/safe-set",
-  "version": "0.1.1",
+  "private": true,
+  "version": "0.1.2",
   "description": "safeGet",
   "main": "index.js",
   "types": "index.d.ts",

@@ -75,9 +75,17 @@ function safeSet(instance, path, value) {
         // 数组元素赋值
         if(isArray(key)) {
           const k = getArrayIndex(key);
-          data[k] = value || null;
+          if (value === 0) {
+            data[k] = 0;
+          } else {
+            data[k] = value || null;
+          }
         } else {
-          data[key] = value || null;
+          if (value === 0) {
+            data[key] = 0;
+          } else {
+            data[key] = value || null;
+          }
         }
         return;
       }
