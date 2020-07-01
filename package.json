@@ -1,6 +1,5 @@
 {
   "name": "@fengqiaogang/safe-set",
-  "private": true,
   "version": "0.1.2",
   "description": "safeGet",
   "main": "index.js",
